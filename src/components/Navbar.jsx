@@ -22,7 +22,7 @@ function Navbar() {
   return (
     <header className="site-nav">
       <a className="brand" href="#top">
-        JA
+        AJ
       </a>
 
       <button
