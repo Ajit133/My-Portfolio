@@ -363,6 +363,16 @@ h3 {
   color: var(--accent);
 }
 
+.projects-more {
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-more .btn {
+  min-width: 140px;
+}
+
 .skills-cloud {
   list-style: none;
   display: flex;

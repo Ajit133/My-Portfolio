@@ -45,6 +45,17 @@ function ProjectsSection() {
           </article>
         ))}
       </div>
+
+      <div className="projects-more reveal delay-4">
+        <a
+          className="btn btn-secondary"
+          href="https://github.com/Ajit133?tab=repositories"
+          target="_blank"
+          rel="noreferrer"
+        >
+          See More
+        </a>
+      </div>
     </section>
   )
 }
