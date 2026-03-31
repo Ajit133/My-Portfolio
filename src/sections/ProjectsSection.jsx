@@ -24,7 +24,24 @@ function ProjectsSection() {
             </ul>
 
             <p className="outcome">{project.outcome}</p>
-            <a href={project.link}>View case study</a>
+            <div className="project-actions">
+              <a className="btn btn-primary" href={project.link} target="_blank" rel="noreferrer">
+                Live
+              </a>
+
+              <div className="project-links" aria-label={`${project.title} links`}>
+                {project.github && (
+                  <a href={project.github} target="_blank" rel="noreferrer">
+                    GitHub
+                  </a>
+                )}
+                {project.record && (
+                  <a href={project.record} target="_blank" rel="noreferrer">
+                    Record
+                  </a>
+                )}
+              </div>
+            </div>
           </article>
         ))}
       </div>

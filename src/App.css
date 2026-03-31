@@ -329,8 +329,38 @@ h3 {
 .project-card a {
   margin-top: auto;
   text-decoration: none;
-  color: var(--accent);
   font-weight: 700;
+}
+
+.project-actions {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.project-actions .btn {
+  margin-top: 0;
+}
+
+.project-actions .btn-primary {
+  background: linear-gradient(120deg, #0f4e92, #1c6ac0);
+  color: #fff;
+  box-shadow: 0 8px 18px rgba(15, 78, 146, 0.26);
+}
+
+.project-links {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.project-links a {
+  margin-top: 0;
+  font-size: 0.86rem;
+  color: var(--accent);
 }
 
 .skills-cloud {

@@ -98,7 +98,8 @@ export const projects = [
       'Engineered a secure school management platform with role-based dashboard views and permission levels for Admins, Teachers, Parents, and Students.',
     stack: ['React', 'Next.js', 'Tailwind CSS', 'Redux Toolkit', 'RTK Query'],
     outcome: 'Optimized data flow, enabled secure token-based auth, and improved performance with Next.js server-side optimization.',
-    link: '#',
+    link: 'https://school-management-dashboard-9p7b-bi0smicqt-ajit133s-projects.vercel.app/sign-in',
+    github: 'https://github.com/Ajit133/School_Management_Dashboard',
   },
   {
     title: 'E-Commerce App',
@@ -106,7 +107,8 @@ export const projects = [
       'Built a high-performance storefront featuring advanced product filtering, real-time search, and a persistent cart experience.',
     stack: ['React', 'Vite', 'Redux Toolkit', 'Sass', 'Vercel'],
     outcome: 'Delivered a mobile-first experience with secure checkout logic, form validation, and real-time pricing updates.',
-    link: '#',
+    link: 'https://e-commerce-app-six-gilt.vercel.app/',
+    github: 'https://github.com/Ajit133/E-Commerce-App',
   },
   {
     title: 'QuickHire',
@@ -114,7 +116,9 @@ export const projects = [
       'Developed a full-stack job board with listing, search, filtering, job details, and complete application submission flow.',
     stack: ['React', 'Redux', 'Laravel', 'Tailwind CSS', 'REST API'],
     outcome: 'Implemented secure admin controls, resume upload, and responsive UX across mobile, tablet, and desktop.',
-    link: '#',
+    link: 'https://quickhire-frontend-xi.vercel.app/',
+    github: 'https://github.com/Ajit133/QuickhireFrontend',
+    record: 'https://www.loom.com/share/f25ba949218245f59fde7bd8a05df881',
   },
 ]
 
