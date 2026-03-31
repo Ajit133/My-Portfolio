@@ -14,7 +14,7 @@ function HeroSection() {
         <a className="btn btn-primary" href="#projects">
           {profile.cta.primaryLabel}
         </a>
-        <a className="btn btn-secondary" href={profile.resumeUrl}>
+        <a className="btn btn-secondary" href={profile.resumeUrl} download="Ajit-Das-Resume.pdf">
           {profile.cta.secondaryLabel}
         </a>
       </div>

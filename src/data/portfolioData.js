@@ -1,3 +1,5 @@
+import resumePdf from '../assets/Ajit Das.pdf'
+
 export const profile = {
   name: 'Ajit Das',
   role: 'Frontend Developer',
@@ -5,7 +7,7 @@ export const profile = {
     'I build fast, accessible, and business-focused web interfaces with clean architecture and modern UX.',
   location: 'Dhaka, Bangladesh',
   email: 'hello@ajitdas.dev',
-  resumeUrl: '#',
+  resumeUrl: resumePdf,
   cta: {
     primaryLabel: 'View Projects',
     secondaryLabel: 'Download Resume',
