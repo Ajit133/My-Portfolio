@@ -2,104 +2,118 @@ import resumePdf from '../assets/Ajit Das.pdf'
 
 export const profile = {
   name: 'Ajit Das',
-  role: 'Frontend Developer',
+  role: 'Full-Stack Developer',
   tagline:
-    'I build fast, accessible, and business-focused web interfaces with clean architecture and modern UX.',
-  location: 'Dhaka, Bangladesh',
-  email: 'hello@ajitdas.dev',
+    'Result-oriented Full-Stack Developer with 2+ years of experience in building scalable, high-performance web applications.',
+  location: 'Mirpur 2, Rupnagar Abashik, Bangladesh',
+  email: 'dasajit697@gmail.com',
   resumeUrl: resumePdf,
   cta: {
     primaryLabel: 'View Projects',
     secondaryLabel: 'Download Resume',
   },
   socialLinks: [
-    { label: 'GitHub', url: 'https://github.com' },
-    { label: 'LinkedIn', url: 'https://linkedin.com' },
-    { label: 'Behance', url: 'https://behance.net' },
+    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/ajit-das-33561a210/' },
+    { label: 'Phone', url: 'tel:+8801710977179' },
   ],
 }
 
 export const about = {
-  title: 'Building reliable interfaces for real product teams',
+  title: 'Full-Stack developer focused on scalable, maintainable products',
   subtitle:
-    'I focus on thoughtful UX, strong frontend architecture, and measurable outcomes for every release.',
+    'Proficient in AI-driven development workflows, responsive UI architecture, requirement analysis, and RESTful API integration.',
   paragraphs: [
-    'I specialize in modern React-based applications that balance visual quality, maintainability, and speed. My work emphasizes clear structure, reusable components, and long-term scalability.',
-    'I collaborate closely with design and product teams, translate business requirements into polished interfaces, and ensure responsive, accessible experiences across devices.',
+    'I build high-performance frontend systems with React, Next.js, Redux Toolkit, and modern CSS tools. My work emphasizes responsive design, cross-browser compatibility, and clean, reusable architecture.',
+    'Beyond implementation, I contribute to architectural planning and workflow efficiency. I use AI-assisted development to accelerate delivery while maintaining quality, readability, and long-term maintainability.',
   ],
 }
 
 export const stats = [
-  { label: 'Years Building Web', value: '5+' },
-  { label: 'Projects Delivered', value: '32' },
-  { label: 'Avg Lighthouse Score', value: '95+' },
+  { label: 'Years Building Web', value: '2+' },
+  { label: 'Projects Built', value: '10+' },
+  { label: 'Frontend Focus', value: 'React + Next.js' },
 ]
 
 export const skills = [
-  'JavaScript (ESNext)',
-  'React and Vite',
+  'HTML',
+  'CSS',
+  'JavaScript',
   'TypeScript',
+  'PHP',
+  'React',
+  'Redux',
   'Next.js',
-  'Performance Optimization',
-  'Accessibility (WCAG)',
-  'Design Systems',
-  'Testing (Vitest, RTL)',
+  'Node.js',
+  'Express.js',
+  'Laravel',
+  'Bootstrap',
+  'Tailwind CSS',
+  'Firebase Authentication',
+  'Responsive Design',
+  'Cross-Browser Compatibility',
+  'Problem Solving',
+  'Requirement Analysis',
+  'Communication and Team Collaboration',
+  'Time Management',
+  'Adaptability',
+  'AI-Driven Development Workflows',
+  'REST API Integration',
+  'Architectural Planning',
+  'Vite',
+  'Sass',
 ]
 
 export const experience = [
   {
-    company: 'BrightPath Solutions',
-    role: 'Frontend Developer',
-    period: '2023 - Present',
+    company: 'Omega Solution',
+    role: 'Software Development (Full-Stack)',
+    period: '10 Months (2025 - 2026)',
     points: [
-      'Built reusable UI components that improved development speed across product modules.',
-      'Improved page performance and accessibility for customer-facing pages.',
-      'Worked with product and design teams to deliver iterative feature releases.',
-    ],
-  },
-  {
-    company: 'PixelForge Agency',
-    role: 'Frontend Developer',
-    period: '2021 - 2023',
-    points: [
-      'Developed responsive marketing and dashboard interfaces for international clients.',
-      'Integrated REST APIs and optimized client-side rendering behavior.',
-      'Maintained quality through linting, reusable patterns, and structured code reviews.',
+      'Developed responsive and user-friendly interfaces with React.js, Redux, Tailwind CSS, and Bootstrap for 10+ projects.',
+      'Developed Ticketing System frontend features with API integration.',
+      'Developed Salon Software frontend screens and user workflows.',
+      'Implemented ERP backend modules with Laravel (CRUD + database integration).',
+      'Built and consumed REST APIs using Node.js/Express and Laravel.',
     ],
   },
 ]
 
 export const education = [
   {
-    institute: 'University of Dhaka',
-    degree: 'BSc in Computer Science',
+    institute: 'Feni Computer Institute',
+    degree: 'Engineering in Computer Science and Technology',
     period: '2017 - 2021',
+  },
+  {
+    institute: 'Bangladesh University of Business and Technology (BUBT)',
+    degree: 'Computer Science and Engineering',
+    period: '2023 - 2026 (Ongoing)',
   },
 ]
 
 export const projects = [
   {
-    title: 'Analytics Control Center',
+    title: 'EduManage (School Management System)',
     description:
-      'A web dashboard for monitoring KPIs, campaign performance, and business reports in real time.',
-    stack: ['React', 'TypeScript', 'TanStack Query'],
-    outcome: 'Improved decision-making speed with clearer data visibility.',
+      'Engineered a secure school management platform with role-based dashboard views and permission levels for Admins, Teachers, Parents, and Students.',
+    stack: ['React', 'Next.js', 'Tailwind CSS', 'Redux Toolkit', 'RTK Query'],
+    outcome: 'Optimized data flow, enabled secure token-based auth, and improved performance with Next.js server-side optimization.',
     link: '#',
   },
   {
-    title: 'Modern Commerce Frontend',
+    title: 'E-Commerce App',
     description:
-      'A high-performance storefront focused on smooth navigation and conversion-focused UX.',
-    stack: ['Next.js', 'Stripe', 'Contentful'],
-    outcome: 'Increased user engagement and checkout completion rate.',
+      'Built a high-performance storefront featuring advanced product filtering, real-time search, and a persistent cart experience.',
+    stack: ['React', 'Vite', 'Redux Toolkit', 'Sass', 'Vercel'],
+    outcome: 'Delivered a mobile-first experience with secure checkout logic, form validation, and real-time pricing updates.',
     link: '#',
   },
   {
-    title: 'Recruitment Workflow Portal',
+    title: 'QuickHire',
     description:
-      'A recruitment platform with role pipelines, filters, and interview management screens.',
-    stack: ['React', 'Node.js', 'PostgreSQL'],
-    outcome: 'Reduced hiring coordination overhead with a clearer process flow.',
+      'Developed a full-stack job board with listing, search, filtering, job details, and complete application submission flow.',
+    stack: ['React', 'Redux', 'Laravel', 'Tailwind CSS', 'REST API'],
+    outcome: 'Implemented secure admin controls, resume upload, and responsive UX across mobile, tablet, and desktop.',
     link: '#',
   },
 ]
@@ -107,9 +121,9 @@ export const projects = [
 export const contact = {
   title: 'Let us build something great',
   subtitle:
-    'Open to frontend developer opportunities, freelance collaboration, and product-focused teams.',
+    'Open to full-time and freelance opportunities in frontend or full-stack development.',
 }
 
 export const footer = {
-  text: 'Ajit Das • Frontend Developer • Based in Bangladesh',
+  text: 'Ajit Das • Full-Stack Developer • Mirpur 2, Rupnagar Abashik, Bangladesh',
 }
